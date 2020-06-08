@@ -16,8 +16,8 @@ class WeightTest extends TestCase
     /** @test */
     public function it_can_convert_kilograms_to_lbs()
     {
-        $lbs=Weight::fromKilograms(100)->toLbs();
-        $this->assertEquals(220.4623,$lbs);
+        $lbs = Weight::fromKilograms(100)->toLbs();
+        $this->assertEquals(220.4623, $lbs);
     }
 
 
@@ -28,5 +28,4 @@ class WeightTest extends TestCase
     C:\xampp\htdocs\package-training-php\unit-conversions\vendor\bin>phpunit UnitTest ../../tests/WeightTest.php
 
      * */
-
 }
