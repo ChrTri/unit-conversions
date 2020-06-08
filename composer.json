@@ -1,26 +1,26 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "spatie/unit-conversions",
+    "description": "Package to perform unit conversion in PHP",
     "keywords": [
         "spatie",
-        ":package_name"
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Christian",
+            "email": "c.trippiedi@medialab.net",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.1.8"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
-        "phpunit/phpunit": "^9.0",
+        "phpunit/phpunit": "^7.0",
         "vimeo/psalm": "^3.11"
     },
     "autoload": {
