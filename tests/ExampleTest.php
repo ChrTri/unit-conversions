@@ -20,5 +20,4 @@ class ExampleTest extends TestCase
     C:\xampp\htdocs\package-training-php\unit-conversions\vendor\bin>phpunit UnitTest ../../tests/ExampleTest.php
 
      * */
-
 }
