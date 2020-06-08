@@ -27,5 +27,11 @@ class WeightTest extends TestCase
     2) lanciare il comando phpunit UnitTest ../../tests/WeightTest.php
     C:\xampp\htdocs\package-training-php\unit-conversions\vendor\bin>phpunit UnitTest ../../tests/WeightTest.php
 
+    In alternativa dalla root del progetto :
+    call vendor/bin/phpunit UnitTest tests/WeightTest.php
+
+
+
+
      * */
 }

@@ -43,7 +43,7 @@ If you discover any security related issues, please email xxx@xxx.xx instead of 
 
 ## Credits
 
-- [Christian](https://github.com/Christian)
+- [chrtri](https://github.com/chrtri)
 - [All Contributors](../../contributors)
 
 ## License
