@@ -2,8 +2,8 @@
 
 namespace ChrTri\UnitConversions\Tests;
 
-use PHPUnit\Framework\TestCase;
 use ChrTri\UnitConversions\Weight;
+use PHPUnit\Framework\TestCase;
 
 class WeightTest extends TestCase
 {
