@@ -1,8 +1,8 @@
 {
-    "name": "spatie/unit-conversions",
+    "name": "ChrTri/unit-conversions",
     "description": "Package to perform unit conversion in PHP",
     "keywords": [
-        "spatie",
+        "ChrTri",
         "unit-conversions"
     ],
     "homepage": "https://github.com/spatie/unit-conversions",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\UnitConversions\\": "src"
+            "ChrTri\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\UnitConversions\\Tests\\": "tests"
+            "ChrTri\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {

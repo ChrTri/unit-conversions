@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\UnitConversions;
+namespace ChrTri\UnitConversions;
 
 class Weight
 {
     private $kilograms;
-    public static function fromKilograms(float $kilograms)
+    public static function fromKilograms($kilograms)
     {
         return new static($kilograms);
     }
-    public function __construct(float $kilograms)
+    public function __construct($kilograms)
     {
         $this->kilograms = $kilograms;
     }

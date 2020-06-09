@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UnitConversions\Tests;
+namespace ChrTri\UnitConversions\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Spatie\UnitConversions\Weight;
+use ChrTri\UnitConversions\Weight;
 
 class WeightTest extends TestCase
 {
