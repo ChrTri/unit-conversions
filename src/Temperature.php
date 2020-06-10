@@ -8,20 +8,21 @@
 
 namespace ChrTri\UnitConversions;
 
-
 class Temperature
 {
     private $celsius;
 
-    public static function  fromCelsius($celsius){
+    public static function fromCelsius($celsius)
+    {
         return new static($celsius);
     }
 
     public function __construct($celsius)
     {
-        $this->celsius=$celsius;
+        $this->celsius = $celsius;
     }
-    public function toFahrenheit(){
-        return ($this->celsius *1.8)+32;
+    public function toFahrenheit()
+    {
+        return ($this->celsius * 1.8) + 32;
     }
 }
