@@ -19,14 +19,15 @@ composer require chrtri/unit-conversions
 ## Usage
 
 ``` php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+include('vendor/autoload.php');
+
+echo \ChrTri\UnitConversions\Weight::fromKilograms(100)->toLbs() . PHP_EOL;
 ```
 
 ## Testing
 
 ``` bash
-composer test
+call vendor/bin/phpunit UnitTest tests/WeightTest.php
 ```
 
 ## Changelog
